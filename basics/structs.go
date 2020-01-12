@@ -19,5 +19,6 @@ func main() {
 
 	p = &v
 	p.Z = 1.25
+	(*p).X = 1.75
 	fmt.Println(v)
 }
