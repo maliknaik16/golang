@@ -18,7 +18,9 @@ func main() {
 	v := Vector3{1.0, 2.0, 1.5}
 
 	p = &v
-	p.Z = 1.25
 	(*p).X = 1.75
+
+	// The following notation is allowed in Go lang.
+	p.Z = 1.25
 	fmt.Println(v)
 }
