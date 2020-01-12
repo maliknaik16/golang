@@ -1,2 +1,2 @@
-# golang
+# Golang
 This repository contains all the programs related to Go language.
