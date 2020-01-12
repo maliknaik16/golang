@@ -6,6 +6,10 @@ import (
 	"math"
 )
 
+// Go does not have classes.
+// A method is function with a special receiver argument.
+// The receiver argument appears between the 'func' and the method name.
+
 type Vertex struct {
 	X, Y float64
 }
